@@ -13,6 +13,7 @@ var canvas3Interval;
 
 
 $(document).ready(function () {
+  console.log("READY!");
 
   $wmCanvas1 = $('#canvas1');
   canvas1 = document.getElementById("canvas1")
@@ -54,7 +55,7 @@ $(document).ready(function () {
 
 
   $(window).resize();
-  Canvas3(canvas3, ctx3, canvas3Interval);
+  //Canvas3(canvas3, ctx3, canvas3Interval);
 });
 
 
